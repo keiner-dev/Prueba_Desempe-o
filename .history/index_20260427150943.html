@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beatles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container_header__inner">
+            <div class="logo">
+                <span class="logo">The Beatles</span>
+        </div>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="menu-toggle">☰</button>
+            <button class="alternarModo">Alternar modo</button>
+            <div class="header_actions">
+                <button class="alternarModo" aria-label="Toggle Theme">🌓</button>
+                <button class="menu-toggle" id="mobile-menu-btn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--hero-->
+        <section class="hero">
+            <div class="hero_overlay">
+                <h2>Rock amazing</h2>
+                <p>Upcoming Tour</p>
+                <a href="#events" class="btn">View Events</a>
+            </div>
+        </section>
+
+        <section id="events" class="events_container">
+            <h2>Upcoming Events</h2>
+
+            <table class="events__table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>Venue</th>
+                        <th>Tickets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15 May</td>
+                        <td>Madrid</td>
+                        <td>Sala Sol</td>
+                        <td><button>Buy</button></td>
+                    </tr>
+                    <tr>
+                        <td>18 May</td>
+                        <td>Barcelona</td>
+                        <td>Razzmatazz</td>
+                        <td><button>Buy</button></td>
+                    </tr>
+                    <tr>
+                        <td>22 May</td>
+                        <td>Valencia</td>
+                        <td>Moon Club</td>
+                        <td><button>Buy</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--About-->
+        <section id="about" class="about_container">
+            <h2>About the band</h2>
+
+            <div class="about_content">
+                <img src="./assets/img/beatles.jpg" alt="the beatles">
+
+                <article class="sobre">
+                    <p>
+                        The Beatles fue una banda de rock británica formada en Liverpool, Inglaterra, en 1960, y reconocida universalmente como la banda más influyente y exitosa en la historia de la música popular. 
+                    </p>
+
+                    <h3>Our Influences</h3>
+                    <ul>
+                        <li>Classic Rock</li>
+                        <li>Hard Rock</li>
+                        <li>Alternative</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!--Media-->
+        <section id="media" class="media_container">
+        <section id="media" class="media_container reveal">
+            <h2>Multimedia</h2>
+
+            <div class="media_grid">
+                <img src="./assets/img/img-1.jpg" alt="">
+                <img src="./assets/img/img-2.jpg" alt="">
+                <img src="./assets/img/img-3.jpg" alt="">
+                <img src="./assets/img/img-4.jpg" alt="">
+                <img src="./assets/img/img-5.jpg" alt="">
+                <img src="./assets/img/img-6.jpg" alt="">
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer id="contact" class="footer">
+        <div class="container_footer">
+            <p>© <span id="year"></span> The Beatles</p>
+
+            <ul class="social">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Spotify</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+haz esa prueba 
